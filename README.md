@@ -23,6 +23,8 @@ Objective of this app is to calculate distance and time on the basis of tracking
 9. Run the kafka consumer app, cmd:<br>
     mvn spring-boot:run<br>
 
+*Note* - I have used separate ip (192.168.99.100) instead of localhost to avoid conflicts with other Application.
+
 <h2>Result</h2>
 
 1. Tracking data is published by producer from the csv file.<br>
